@@ -1,0 +1,208 @@
+/* ---------------------------------------- Universal */
+body {
+    background-image: url("./pictures/background-brand.jpeg");
+    }
+.body-subpage{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.header-subpage{
+    background-color: rgba(94, 47, 0, 0.97);
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 35px;
+    text-align: center;
+    color:rgba(255, 255, 255, 0.85);
+}
+
+.header-subpage h2{
+    font-size: 25px;
+}
+
+
+/* ---------------------------------------- Navigation Bar */
+.navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgba(47, 28, 6, 0.837);
+        position: fixed;
+        top: 0;
+        width: 88.1%;
+}
+
+.navbar li {
+        float: left;
+        border-right: 1px solid #bbb;
+}
+
+.navbar li a {
+        font-size: 20px;
+        color: rgba(255, 255, 255, 0.768);
+        display: block;
+        padding: 8px;
+}
+
+.navbar a:hover {
+        background-color: rgb(70, 70, 70);
+}
+
+
+/* ---------------------------------------- Home Page */
+
+.home-main-subpage{
+    background-color: rgba(94, 47, 0, 0.97);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    column-gap: 100px;
+    text-align: center;
+    padding-left: 75px;
+    padding-right: 75px;
+    color:rgba(255, 255, 255, 0.73);
+}
+
+.home-main-subpage h2{
+    font-size: 30px;
+}
+
+.home-main-subpage li, p{
+    font-size: 25px;
+}
+
+#main-page-img{
+    height: auto;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ---------------------------------------- Inquiry Page */
+
+.main-subpage fieldset{
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    background-color: rgba(94, 47, 0, 0.97);
+    border: transparent;
+    display: grid;
+    text-align: center;
+    row-gap: 50px;
+    color:rgba(255, 255, 255, 0.73);
+}
+
+textarea{
+    width: 320px;
+    height: 150px;
+}
+
+.main-subpage legend{
+    font-size: 30px;
+}
+
+.main-subpage label{
+    font-size: 24px;
+}
+
+/* ---------------------------------------- More Resources Page */
+
+.main-subpage img{
+    width: 70%;
+    height: auto;
+}
+
+.website-links ul{
+    list-style-type: none;
+    columns: 3;
+    display: block;
+    padding: 50px;
+    background-color: rgba(47, 28, 6, 0.837);
+    text-align: center;
+}
+
+/* ---------------------------------------- Reviews Page */
+.martin-review{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(24, 14, 3, 0.955);
+}
+
+.martin-review img{
+    margin-top: 80px;
+    width: 100%;
+    height: auto;
+}
+
+.main-subpage h2{
+    font-size: 50px;
+}
+
+.review-text{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    color:rgba(255, 255, 255, 0.83);
+    font-size: larger;
+}
+
+.taylor-review{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgba(173, 105, 32, 0.955);
+}
+
+.taylor-review img{
+    margin-top: 180px;
+    width: 100%;
+    height: auto;
+}
+
+.gibson-review{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(24, 14, 3, 0.955);
+}
+
+.gibson-review img{
+    margin-top: 145px;
+    width: 100%;
+    height: auto;
+}
+
+.breedlove-review{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgba(0, 0, 0, 0.955);
+}
+
+.breedlove-review img{
+    margin: 50px;
+    width: auto;
+    height: 500px;
+}
+
+.fender-review{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(130, 80, 0, 0.955);
+}
+
+.fender-review img{
+    margin: 50px;
+    width: auto;
+    height: 500px;
+}
+
+.yamaha-review{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgba(0, 0, 0, 0.955);
+}
+
+.yamaha-review img{
+    margin: 50px;
+    width: auto;
+    height: 500px;
+}
